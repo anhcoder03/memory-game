@@ -1,0 +1,78 @@
+body {
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  background-image: url("https://storage.googleapis.com/ibw-blog/media/cc/aa4f1540f302d3d5ccef1fabd850f7.jpeg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px 40px;
+  border-radius: 12px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #ff6651;
+  text-transform: uppercase;
+}
+
+form {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.message-err {
+  color: red;
+  font-size: 14px;
+}
+
+label {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  outline: none;
+  margin-right: 10px;
+  border: 2px solid transparent;
+}
+input[type="text"]:focus {
+  border: 2px solid blue;
+}
+
+.form-submit {
+  display: flex;
+  justify-content: center;
+}
+.start-button {
+  margin-top: 20px;
+  font-size: 18px;
+  width: 250px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0066cc;
+  color: #fff;
+  cursor: pointer;
+}
+
+.start-button:hover {
+  background-color: #0052a3;
+}
